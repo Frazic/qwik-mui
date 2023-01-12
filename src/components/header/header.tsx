@@ -10,11 +10,14 @@ export default component$(() => {
       <ResponsiveNavbar
         client:visible
         pages={[
-          { name: "react", href: "/react" },
-          { name: "flower", href: "/flower" },
-          { name: "gouttiere", href: "/gouttiere" },
+          { name: "Nos BD", href: "#" },
+          { name: "Auteurs & Autrices", href: "#" },
+          { name: "Autour des livres", href: "#" },
+          { name: "Foreign rights", href: "#" },
+          { name: "Coulisses", href: "#" },
+          { name: "Contact", href: "#" },
         ]}
-        userSettings={["item1", "item2", "item3"]}
+        userSettings={["Profile", "Paramètres", "Déconnexion"]}
       />
     </header>
   );

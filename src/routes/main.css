@@ -1,0 +1,48 @@
+section#hero {
+    position: relative;
+    max-width: 80vw;
+    min-height: calc(100vh - var(--navbar-height));
+    margin-inline: auto;
+
+    font-size: 18px;
+    font-family: "Josefin Sans";
+
+    /* background: url("visuel-couv.webp"); */
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 70vmin;
+
+    margin-top: calc(8em + var(--navbar-height));
+}
+
+div#hero-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#hero-text-container {
+    max-width: 60ch;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+h1#hero-title {
+    font-family: "Mali";
+    font-size: clamp(36px, 4vw, 4em);
+    font-weight: 700;
+    line-height: 1;
+}
+
+h6#hero-text {
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+img#hero-image {
+    height: fit-content;
+}

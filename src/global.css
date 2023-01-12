@@ -1,3 +1,24 @@
+:root {
+  --primary-main: #75a05b;
+  --primary-light: #fffffe;
+  --primary-dark: #658c51;
+
+  --secondary-main: #78518c;
+  --secondary-light: #8e6ea0;
+  --secondary-dark: #63357a;
+
+  --text-primary: #716040;
+  --text-secondary: #405171;
+  --text-light: #fffffe;
+  --text-dark: #020826;
+  --text-disabled: #baaf9f;
+
+  --background: #f9f4ef;
+
+  --navbar-height: 76px;
+
+}
+
 /* makes sizing simpler */
 *,
 *::before,
@@ -24,6 +45,7 @@ html {
 body {
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: var(--background);
 }
 
 /* responsive images/videos */
@@ -40,4 +62,13 @@ button {
   padding: 0;
   cursor: pointer;
   outline: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+  color: var(--text-dark);
 }

@@ -84,9 +84,9 @@ export const themeOptions: ThemeOptions = {
   palette: {
     mode: "light",
     primary: {
-      main: "#658c51",
+      main: "#75a05b",
       light: "#fffffe",
-      dark: "#75a05b",
+      dark: "#658c51",
       // contrastText: '#020826',
       contrastText: "#fffffe",
     },
@@ -123,7 +123,7 @@ export const themeOptions: ThemeOptions = {
       styleOverrides: {
         colorPrimary: {
           backgroundColor: "hsla(100, 27%, 43%, 0.8)",
-          backdropFilter: "blur 5px",
+          backdropFilter: "blur(3px)",
         },
       },
     },
@@ -170,9 +170,10 @@ export const ResponsiveNavbar = qwikify$<ResponsiveNavbarProps>((props) => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <AppBar position="static">
+        <AppBar position="fixed">
           <Container maxWidth="xl">
             <Toolbar disableGutters>
+
               {/* Mobile logo & pages */}
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
