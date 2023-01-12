@@ -1,0 +1,11 @@
+#home-logo {
+  width: 80%;
+  min-width: 138px;
+  padding: 3%;
+  cursor: pointer;
+  transition: padding 0.2s ease-in;
+}
+
+#home-logo:hover {
+  padding: 0%;
+}
