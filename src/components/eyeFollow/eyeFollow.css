@@ -1,0 +1,16 @@
+.eyes-container {
+    display: grid;
+    place-items: center;
+    width: 10vw;
+    height: fit-content;
+    grid-auto-flow: column;
+    gap: 20%;
+}
+
+.eyes-container img.eye {
+    width: 100%;
+    border-radius: 50%;
+    background-color: black;
+    outline: 2px solid black;
+    outline-offset: 5px;
+}

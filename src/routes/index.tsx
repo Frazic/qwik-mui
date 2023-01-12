@@ -1,5 +1,6 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { EyeFollow } from "~/components/eyeFollow/eyeFollow";
 import style from "./main.css?inline";
 
 export default component$(() => {
@@ -20,6 +21,8 @@ export default component$(() => {
           </div>
           <img id="hero-image" src="/visuel-couv.webp" alt="" />
         </div>
+
+        <EyeFollow />
       </section>
     </>
   );
